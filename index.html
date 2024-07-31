@@ -281,10 +281,106 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="btn btn-success">Купить</button>
                         </div>
                     </div>
                 </div>
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Имя</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <p class="h2">FAQ</p>
+                <div class="card-body text-center">
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#answer1" role="button"
+                           aria-expanded="false" aria-controls="answer1">
+                            Как купить?
+                        </a>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#answer2" role="button"
+                           aria-expanded="false" aria-controls="answer2">
+                            Как доставить?
+                        </a>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#answer3" role="button"
+                           aria-expanded="false" aria-controls="answer3">
+                            Какая гарантия?
+                        </a>
+                    </p>
+                    <div class="collapse" id="answer1">
+                        <div class="card card-body">
+                            Добавьте товар в корзину
+                        </div>
+                    </div>
+                    <div class="collapse" id="answer2">
+                        <div class="card card-body">
+                            Доставка осуществляется курьером
+                        </div>
+                    </div>
+                    <div class="collapse" id="answer3">
+                        <div class="card card-body">
+                            Гарантия 3 года
+                        </div>
+                    </div>
+                </div>
+                <table class="table">>
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Название товара</th>
+                        <th scope="col">Цена за штуку</th>
+                        <th scope="col">Количество</th>
+                        <th scope="col">Итоговая сумма</th>
+                        <th scope="col">Статус заказа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Мяч баскетбольный</td>
+                        <td>5 000 руб</td>
+                        <td>3</td>
+                        <td>15 000 руб</td>
+                        <td class="table-primary">Новый</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Мяч волейбольный</td>
+                        <td>4 000 руб</td>
+                        <td>2</td>
+                        <td>8 000 руб</td>
+                        <td class="table-warning">Обработка</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Шайба</td>
+                        <td>10 000 руб</td>
+                        <td>1</td>
+                        <td>10 000 руб</td>
+                        <td class="table-success">Обработан</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Клюшка</td>
+                        <td>40 000 руб</td>
+                        <td>2</td>
+                        <td>80 000 руб</td>
+                        <td class="table-danger">Отмена</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
